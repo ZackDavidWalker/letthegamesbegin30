@@ -16,13 +16,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px; /* Adjust the margin as needed */
+    margin-top: 10px; /* Adjust the margin as needed */
   }
 
   .buttonRow {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   
   .whiteButton {
