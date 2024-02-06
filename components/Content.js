@@ -5,9 +5,9 @@ import styles from '../styles/content.module.css'; // Import the CSS module
 import { useRouter } from 'next/router'; // Import useRouter from next/router
 
 const Content = () => {
-  const targetDate1 = new Date('2024-02-04T12:00:00');
-  const targetDate2 = new Date('2024-02-11T15:30:00');
-  const targetDate3 = new Date('2024-02-12T18:45:00');
+  const targetDate1 = new Date('2024-02-06T04:05:00');
+  const targetDate2 = new Date('2024-02-06T04:30:00');
+  const targetDate3 = new Date('2024-02-06T06:00:00');
   const router = useRouter(); // Use useRouter to access the router object
 
   const openRules = () => {
@@ -23,7 +23,7 @@ const Content = () => {
       <div className={styles.buttonContainer}>
         {/* First row with one button */}
         <div className='buttonRow'>
-            <button className={styles.whiteButton} onClick={openRules}>Die Regeln</button>
+            <button className={styles.whiteButton} onClick={openRules}>Anleitung</button>
         </div>
 
         {/* Second row with three buttons */}

@@ -1,0 +1,23 @@
+/* styles/rules.module.css */
+
+.container {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .title {
+    font-size: 4rem;
+    margin: 0;
+  }
+  
+  .rulesContent {
+    padding: 10px 200px;
+    text-align: left;
+  }
+
+  .header {
+    margin-top: 50px;
+  }
+  
