@@ -9,6 +9,7 @@
     font-size: 16pt; /* Adjust the font size as needed */
     margin: 0px 20px;
     transition: background-color 0.3s, color 0.3s;
+    z-index: 99;
   }
 
   .largeWhiteButton:hover {

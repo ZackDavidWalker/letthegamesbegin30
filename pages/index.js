@@ -5,7 +5,7 @@ import Content from '../components/Content'; // Import the Content component
 import styles from '../styles/styles.module.css'; // Import the CSS module
 
 const Home = () => {
-  const targetDate = new Date('2024-02-06T04:00:00'); // Set your desired end date and time
+  const targetDate = new Date('2024-04-27T14:00:00'); // Set your desired end date and time
   const [countdownText, setCountdownText] = useState('');
 
   useEffect(() => {
@@ -39,6 +39,7 @@ const Home = () => {
 
   return (
     <div className={styles.container}>
+      
       <div className={styles.textContainer}>
       {countdownText !== '' && (
         <>
