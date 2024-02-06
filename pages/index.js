@@ -28,6 +28,12 @@ const Home = () => {
       }
     }, 1000);
 
+    const isMobile = window.innerWidth < 600;
+
+    if (isMobile) {
+      alert('Ich empfehle euch, diese Seite auf einem Laptop zu öffnen, wenn ihr Darstellungsprobleme vermeiden wollt :)');
+    }
+
     return () => clearInterval(interval);
   }, [targetDate]);
 
