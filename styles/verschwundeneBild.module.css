@@ -57,4 +57,9 @@
         padding: 20px;
         margin-top: 50px;
     }
+
+    .title {
+      font-size: 2rem;
+      margin: 0;
+    }
   }

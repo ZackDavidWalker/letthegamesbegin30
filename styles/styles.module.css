@@ -54,7 +54,7 @@
 
   @media (max-width: 1000px) {
     .hero {
-      width: 75%;
+      width: 100%;
       margin-bottom: 0px;
     }
   }
