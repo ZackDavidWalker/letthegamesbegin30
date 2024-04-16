@@ -52,4 +52,11 @@
     margin-top: -50px;
   }
 
+  @media (max-width: 1000px) {
+    .hero {
+      width: 75%;
+      margin-bottom: 0px;
+    }
+  }
+
   
