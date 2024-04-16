@@ -40,7 +40,7 @@
 
   @media (max-width: 1100px) {
     .rulesContent {
-      width: 90%;
-      padding: 10px;
+      width: 100%;
+      padding: 0px;
     }
   }

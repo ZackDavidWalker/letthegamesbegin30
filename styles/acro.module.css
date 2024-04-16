@@ -51,5 +51,10 @@
         font-size: 2rem;
         margin: 0;
       }
+
+      .container {
+        padding: 25px;
+        text-align: center;
+      }
   }
   
