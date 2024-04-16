@@ -67,13 +67,22 @@
   @media (max-width: 1000px) {
     .hero {
       width: 100%;
-      margin-bottom: 0px;
+      margin-bottom: -40px;
+    }
+
+    .container {
+      position: fixed;
+      overflow: hidden;
+    }
+
+    .countdown {
+      font-size: 3rem;
     }
 
     .motiv {
       position: absolute;
-      top: -35px;
-      height: 40%;
+      height: 100%;
+      max-width: none;
       animation: rotateImage 60s linear infinite;
       z-index: 0;
       opacity: .5;
