@@ -37,24 +37,35 @@ const Home = () => {
     return () => clearInterval(interval);
   }, [targetDate]);
 
+  const countdownElement = countdownText !== '' && (
+    <div id="countdown" className={`${styles.countdown} ${countdownText === '' ? '' : styles.red}`}>
+      {countdownText}
+    </div>
+  );
+
   return (
     <div className={styles.container}>
-      
+      {countdownText !== '' && (
+      <video autoPlay loop muted className={styles.backgroundVideo}>
+        <source src="4K_11.mp4" type="video/mp4" />
+        
+      </video>)}
+
       <div className={styles.textContainer}>
       {countdownText !== '' && (
         <>
         <div>
+          <img className={styles.hero} src='hero.png' />
           <p className={styles.textAboveBelow}>
-            Wilkommen! Schön, dass ihr es schonmal bis hierher geschafft habt.
-            Das bedeutet, dass ihr das erste Rätsel schon gelöst habt. 
-            Das war aber nur ein kleiner Geschmack, um euch auf die bevorstehende Reise vorzubereiten.
-            Das Abenteuer beginnt in
+            Liebe Teilnehmer*innen, <br/>
+            wilkommen zur <b>Gamemaster's Odyssee</b>. <br/> <br/>
+            Ihr habt es schonmal bis herhin geschafft - Gratulation! <br/>
+            Aber das war nur ein kleiner Geschmack, um euch auf die Resie vorzubereiten. <br/> <br/>
+            Macht euch bereit für das Abenteuer. Es beginnnt in
           </p>
         </div>
 
-        <div id="countdown" className={styles.countdown}>
-          {countdownText}
-        </div>
+        {countdownElement}
 
         <div>
           <p className={styles.textAboveBelow}>Viel Erfolg!</p>

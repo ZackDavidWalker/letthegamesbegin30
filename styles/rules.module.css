@@ -21,3 +21,26 @@
     margin-top: 50px;
   }
   
+  .lineSpacing {
+    line-height: 1.6;
+  }
+
+  .marginedLi {
+    margin-bottom: 15px;
+  }
+
+  .horizontalSeparator {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid darkgray;
+    width: 90%;
+    align-self: center;
+  }
+
+  @media (max-width: 1100px) {
+    .rulesContent {
+      width: 90%;
+      padding: 10px;
+    }
+  }

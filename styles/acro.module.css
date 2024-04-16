@@ -1,0 +1,50 @@
+.container {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    line-height: 1.6;
+  }
+  
+  .title {
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  .container > * {
+    margin: 0 auto;
+}
+
+  .horizontalSeparator {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid darkgray;
+    width: 80%;
+  }
+
+  .acsImgContainer {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flexContainer {
+    justify-content: space-around; /* You can change this to 'center' if you prefer */
+  }
+
+  .acsImg {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .acsImgContainer {
+      flex-direction: column;
+    }
+
+    .acsImg {
+      margin: auto;
+        margin-bottom: 20px;
+        width: 90%;
+      }
+  }
+  

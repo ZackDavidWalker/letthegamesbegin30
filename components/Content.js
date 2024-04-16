@@ -30,8 +30,8 @@ const Content = () => {
         <div className='buttonRow'>
             <CountdownButton label="Das verschwundene Bild" targetDate={targetDate1} linkTo="/dasVerschwundeneBild"/>
             <CountdownButton label="Acrosport-Affen" targetDate={targetDate2} linkTo="/acrosportAffen"/>
-            <CountdownButton label="Das Chiffrekonglomorat" targetDate={targetDate3} linkTo="/chiffrekonglomorat"/>
-        </div>
+            <CountdownButton label="Das Chiffrekonglomerat" targetDate={targetDate3} linkTo="/chiffrekonglomorat"/>
+        </div> 
       </div>
     </div>
   );

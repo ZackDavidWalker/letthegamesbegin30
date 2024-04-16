@@ -1,0 +1,32 @@
+.container {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+
+.container > * {
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  .equations {
+    line-height: 2;
+    font-weight: bold;
+    font-size: 25pt;
+  }
+
+  .horizontalSeparator {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid darkgray;
+    width: 80%;
+  }
+  
+  .smallImage {
+    width: 50%;
+  }
