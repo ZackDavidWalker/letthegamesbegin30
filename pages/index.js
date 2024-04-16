@@ -5,7 +5,7 @@ import Content from '../components/Content'; // Import the Content component
 import styles from '../styles/styles.module.css'; // Import the CSS module
 
 const Home = () => {
-  const targetDate = new Date('2024-04-16T10:55:00'); // Set your desired end date and time
+  const targetDate = new Date('2024-04-27T14:00:00'); // Set your desired end date and time
   const [countdownText, setCountdownText] = useState('');
 
   var warningShown = false;
@@ -44,10 +44,8 @@ const Home = () => {
   return (
     <div className={styles.container}>
       {countdownText !== '' && (
-      <video autoPlay loop muted className={styles.backgroundVideo}>
-        <source src="4K_11.mp4" type="video/mp4" />
-        
-      </video>)}
+        <img src="motiv.png" className={styles.motiv} />
+      )}
 
       <div className={styles.textContainer}>
       {countdownText !== '' && (
