@@ -28,6 +28,7 @@
     padding: 50px;
     font-size: 4rem;
     color: white;
+    z-index: 99;
   }
   
   .red {
@@ -67,6 +68,15 @@
     .hero {
       width: 100%;
       margin-bottom: 0px;
+    }
+
+    .motiv {
+      position: absolute;
+      top: -35px;
+      height: 40%;
+      animation: rotateImage 60s linear infinite;
+      z-index: 0;
+      opacity: .5;
     }
   }
 
