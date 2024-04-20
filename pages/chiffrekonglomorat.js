@@ -10,7 +10,7 @@ const Chiffrekonglomorat = () => {
         <div className={styles.horizontalSeparator}></div>
 
         <div className={styles.lineSpacing}>Arthur Scherbius war ein genialer Ingenieur, Erfinder und Kryptograf, dessen Arbeit maßgeblich zur Entwicklung moderner Verschlüsselungstechniken beigetragen hat. <br/>
-          Nach seinem Vorbild habe ich das Chiffrekonglomerat entwickelt - die Königsdisziplin des Rallyes mit einer sehr hohen Schwierigkeit und ein Rätsel, das ihr nun in Angriff nehmen müsst. <br /> 
+          Nach seinem Vorbild habe ich das Chiffrekonglomerat entwickelt - die schwerste Challenge der Odyssee und die finale Etappe in der Jagd nach der Event-Location <br /> 
           Eure Aufgabe ist simpel: Dekodiert die Chiffres, löst das Rätsel des Zahlencodes, schickt mir das von Arthur Scherbius versteckte Codewort und erweist euch somit würdig des letzten Hinweises auf die Event-Location. <br/><br/>
           Viel Erfolg!<br/> <br/></div>
 

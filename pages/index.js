@@ -5,7 +5,7 @@ import Content from '../components/Content'; // Import the Content component
 import styles from '../styles/styles.module.css'; // Import the CSS module
 
 const Home = () => {
-  const targetDate = new Date('2024-04-16T14:38:00'); // Set your desired end date and time
+  const targetDate = new Date('2024-02-27T14:00:00'); // Set your desired end date and time
   const [countdownText, setCountdownText] = useState('');
 
   var warningShown = false;
@@ -43,10 +43,9 @@ const Home = () => {
 
   return (
     <div className={styles.container}>
-      {countdownText !== '' && (
-        <img src="motiv.png" className={styles.motiv} />
-      )}
-
+      <div className={styles.fixedContainer}>
+            <img src="motiv.png" className={styles.motiv} />
+      </div> 
       <div className={styles.textContainer}>
       {countdownText !== '' && (
         <>
@@ -69,8 +68,9 @@ const Home = () => {
           </>
         )}
 
-        {countdownText === '' && <Content />} {/* Render Content component when countdown expires */}
+        {countdownText === '' && <Content />}
       </div>
+      
     </div>
   );
 };

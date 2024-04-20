@@ -10,11 +10,13 @@
     margin: 0px 20px;
     transition: background-color 0.3s, color 0.3s;
     z-index: 99;
+    border: 2px solid goldenrod;
   }
 
   .largeWhiteButton:hover {
     background-color: #d48a0d;
     color: white;
+    border: 2px solid white;
   }
 
   .largeWhiteButton[disabled] {

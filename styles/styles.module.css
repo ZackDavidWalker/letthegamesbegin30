@@ -5,11 +5,11 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
     background: black;
     color: white;
     font-family: Arial, sans-serif;
     z-index: 99;
+    height: 100vh;
   }
   
   .textContainer {
@@ -17,6 +17,7 @@
     width: 75%;
     font-size: 4rem;
     font-weight: bold;
+    z-index: 99;
   }
   
   .textAboveBelow {
@@ -46,13 +47,17 @@
     z-index: 99;
   }
 
+  .fixedContainer {
+    position: fixed;
+    overflow: hidden;
+    z-index: 99;
+    height: 100%;
+  }
+
   .motiv {
-    position: absolute;
-    max-width: 100%;
     height: 100%;
     animation: rotateImage 60s linear infinite;
-    z-index: 0;
-    opacity: .5;
+    opacity: .7;
   }
   
   @keyframes rotateImage {
@@ -70,22 +75,8 @@
       margin-bottom: -40px;
     }
 
-    .container {
-      position: fixed;
-      overflow: hidden;
-    }
-
     .countdown {
       font-size: 3rem;
-    }
-
-    .motiv {
-      position: absolute;
-      height: 100%;
-      max-width: none;
-      animation: rotateImage 60s linear infinite;
-      z-index: 0;
-      opacity: .5;
     }
   }
 
