@@ -5,9 +5,9 @@ import styles from '../styles/content.module.css'; // Import the CSS module
 import { useRouter } from 'next/router'; // Import useRouter from next/router
 
 const Content = () => {
-  const targetDate1 = new Date('2024-02-27T14:01:00');
-  const targetDate2 = new Date('2024-02-27T14:30:00');
-  const targetDate3 = new Date('2024-02-27T16:00:00');
+  const targetDate1 = new Date('2024-04-27T14:01:00');
+  const targetDate2 = new Date('2024-04-27T14:30:00');
+  const targetDate3 = new Date('2024-04-27T16:00:00');
   const router = useRouter(); // Use useRouter to access the router object
 
   const openRules = () => {
